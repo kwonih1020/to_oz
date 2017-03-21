@@ -1,0 +1,49 @@
+$ cd ~
+
+$ mkdir House
+
+$ cd House
+
+$ touch Dorothy.txt Toto.txt House.txt
+
+$ cd ~
+
+$ pwd
+/Users/kwonih1020
+
+$ mkdir Oz
+
+$ cd Oz
+
+$ touch Good_Witch_of_the_North.txt Wicked_Witch_of_the_East.txt Good_Witch_of_the_South.txt Wicked_Witch_of_the_West.txt
+
+$ rm Wicked_Witch_of_the_East.txt
+
+$ cd ..
+
+$ mv ./House/Dorothy.txt ./oz
+
+$ touch Scarecrow.txt Tin_Man.txt Cowardly_Lion.txt
+
+$ mkdir Emerald_City
+
+$ mv ./Scarecrow.txt ./Emerald_City
+
+$ mv ./Tin_man.txt ./Emerald_City
+
+$ mv ./Cowardly_Lion.txt ./Emerald_City
+
+$ touch ./Oz/Flying_Monkeys.txt
+
+$ ls
+Applications	Downloads	Library	Oz	WDI
+Desktop	Emerald_City	Movies	Pictures
+Documents	House	Music	Public
+
+$ rm ./Oz/Wicked_Witch_of_the_West.txt
+
+$ echo "diploma" >> ./Emerald_City/Sacrecrow.txt
+
+echo "heart shaped watch" >> ./Emerald_City/Tin_Man.txt
+
+$ echo "medal" >> ./Emerald_City/Cowardly_Lion.txt
